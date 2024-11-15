@@ -40,17 +40,17 @@ public class Ejercicio11 {
 
         } else {
             menor = valor3;
-        }
-        if (valor1 <= valor2) {
-            medio = valor1;
-            mayor = valor2;
-        } else {
-            medio = valor2;
-            mayor = valor1;
-        }
 
-        System.out.println("El orden de los numeros es asi: "+menor+ " " +medio+ " " +mayor);
+            if (valor1 <= valor2) {
+                medio = valor1;
+                mayor = valor2;
+            } else {
+                medio = valor2;
+                mayor = valor1;
+            }
 
-        entrada.close();
+            entrada.close();
+        }
+        System.out.println("El orden de los numeros es asi: " + menor + " " + medio + " " + mayor);
     }
 }
